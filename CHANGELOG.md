@@ -1,4 +1,11 @@
+### 2021-1-26 v0.8
 
+修复 大量调用 导致 socket_recvfrom resource temporarily unavailable
+
+处理方案 增加重试机制
+### 2019-10-28 v0.7
+
+修复提的建议
 ### 2019-10-28 v0.6
 
 修复 receive 没有限制次数导致无限循环 （感谢 杨昕 发现的 bug ）
